@@ -1,0 +1,20 @@
+{
+  "directed": false,
+  "vertices": ["A", "B", "C", "D", "E"],
+  "edges": [
+    {"from": "A", "to": "B", "weight": 4},
+    {"from": "A", "to": "C", "weight": 1},
+    {"from": "B", "to": "C", "weight": 2},
+    {"from": "B", "to": "D", "weight": 1},
+    {"from": "C", "to": "D", "weight": 5},
+    {"from": "C", "to": "E", "weight": 3},
+    {"from": "D", "to": "E", "weight": 2}
+  ],
+  "positions": {
+    "A": [150, 150],
+    "B": [380, 100],
+    "C": [320, 270],
+    "D": [550, 230],
+    "E": [500, 420]
+  }
+}
